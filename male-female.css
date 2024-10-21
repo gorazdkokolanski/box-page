@@ -13,3 +13,13 @@ section{
 video{
     width: 100%;
 }
+
+section{
+    position: relative;
+}
+
+a.clickable{
+    position: absolute;
+    inset: 0;
+    z-index: 30;
+}
