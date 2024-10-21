@@ -3,6 +3,12 @@ const clickableLink = document.querySelector('.clickable');
 
 console.log(video);
 
+video.play()
+
+setTimeout(() => {
+    video.play()
+}, 20);
+
 let clicked = false
 
 // Pause the video when the link is clicked
