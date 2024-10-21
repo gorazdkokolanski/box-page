@@ -31,6 +31,7 @@ a.clickable{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: transparent;
 }
 
 .play-btn{
