@@ -3,11 +3,6 @@ const clickableLink = document.querySelector('.clickable');
 
 console.log(video);
 
-video.play()
-
-setTimeout(() => {
-    video.play()
-}, 20);
 
 let clicked = false
 
