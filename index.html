@@ -108,6 +108,7 @@
           pixel.width = 1;
           pixel.height = 1;
           pixel.src = `https://track.survey247.live/conversion.gif?et=${path}&cid=${cid}`;
+          console.log(cid)
 
           document.body.appendChild(pixel);
           console.log('Pixel fired successfully with CID:', cid);
