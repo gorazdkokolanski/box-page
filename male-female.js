@@ -4,5 +4,5 @@ console.log(video)
 
 video.addEventListener('ended', () => {
     console.log(video)
-    window.location.href = "https://www.test.de/"
+    window.open("https://www.test.de/", "_blank");
 });
