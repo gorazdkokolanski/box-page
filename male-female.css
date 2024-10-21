@@ -23,3 +23,27 @@ a.clickable{
     inset: 0;
     z-index: 30;
 }
+
+.play-clickable{
+    position: absolute;
+    inset: 0;
+    z-index: 35;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.play-btn{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.play-btn img{
+    height: 35px;
+    margin-left: 7px;
+}
