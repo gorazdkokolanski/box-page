@@ -47,12 +47,25 @@ section{
     font-size: 20px;
     font-weight: 600;
     z-index: 100;
-    color: white;
     display: none;
 }
 
+.loader>div{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border-radius: 15px;
+    padding: 30px;
+    width: 250px;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    line-height: 1.5;
+}
+
 .loader img{
-    height: 30px;
+    height: 40px;
+    width: 40px;
 }
 
 .box{
