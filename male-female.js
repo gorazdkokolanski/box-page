@@ -4,24 +4,26 @@ const otherC = document.querySelector(".play-clickable")
 
 console.log(video);
 
-
-otherC.addEventListener('click', (e) => {
-    video.play(); // Pause the video
-    otherC.remove()
-});
+let firstClicked = false
 
 let clicked = false
 
-// Pause the video when the link is clicked
 clickableLink.addEventListener('click', (e) => {
     console.log('Anchor tag clicked!');
+    if (!firstClicked) {
+        e.preventDefault()
+        video.play();
+        otherC.remove()
+        firstClicked = true
+        return
+    }
     if (!clicked) {
-        video.pause(); // Pause the video
+        video.pause();
         clicked = true
     }
     else {
         e.preventDefault()
-        video.play(); // Pause the video
+        video.play();
         clicked = false
     }
 });

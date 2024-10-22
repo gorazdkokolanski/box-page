@@ -26,12 +26,18 @@ a.clickable{
 
 .play-clickable{
     position: absolute;
-    inset: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     z-index: 35;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: transparent;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    pointer-events: none;
 }
 
 .play-btn{
