@@ -38,6 +38,7 @@ a.clickable{
     width: 70px;
     border-radius: 50%;
     pointer-events: none;
+    display: none;
 }
 
 .play-btn{
